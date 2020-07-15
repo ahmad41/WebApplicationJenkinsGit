@@ -9,7 +9,7 @@
 <body>
     <form id="form1" runat="server">
     <div>
-        Hello WebApplicationJenkinsGit, new 1:30pm
+        Hello WebApplicationJenkinsGit, new 1:30pm, New Version
     
     </div>
     </form>
