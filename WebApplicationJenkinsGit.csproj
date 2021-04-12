@@ -68,6 +68,7 @@
   <ItemGroup>
     <Content Include="Default.aspx" />
     <Content Include="Default2.aspx" />
+    <Content Include="My-Account.aspx" />
     <Content Include="new-feature.aspx" />
     <Content Include="packages.config" />
     <None Include="Web.Debug.config">
@@ -94,6 +95,13 @@
     </Compile>
     <Compile Include="Default2.aspx.designer.cs">
       <DependentUpon>Default2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="My-Account.aspx.cs">
+      <DependentUpon>My-Account.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="My-Account.aspx.designer.cs">
+      <DependentUpon>My-Account.aspx</DependentUpon>
     </Compile>
     <Compile Include="new-feature.aspx.cs">
       <DependentUpon>new-feature.aspx</DependentUpon>
